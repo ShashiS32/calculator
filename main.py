@@ -1,4 +1,4 @@
-x = 1 
+x = input("What is x?")
 y = 2
 
-print (x + y)
+print( int(x) + y)
