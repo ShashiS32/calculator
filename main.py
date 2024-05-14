@@ -1,4 +1,6 @@
-x = input("What is x?")
-y = 2
+x = float(input("What is x? "))
+y = float(input("What is y " ))
 
-print( int(x) + y)
+z = round(x+y)
+
+print (f"{z:,}")
